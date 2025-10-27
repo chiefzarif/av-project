@@ -1,6 +1,6 @@
 #!/bin/bash
 # Demo script for Autonomous Vision AI
-# Shows off all key features matching resume claims
+
 
 set -e
 
