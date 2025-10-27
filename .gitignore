@@ -42,15 +42,16 @@ coco/
 datasets/
 annotations/
 data/
+
+# Images and videos
 *.jpg
 *.jpeg
 *.png
 *.mp4
 *.avi
-# Keep test images for demo
-!zidane.jpg
-!bus.jpg
-!test_image.jpg
+
+# Note: Download test images separately
+# wget https://ultralytics.com/images/zidane.jpg
 
 # Logs
 logs/
