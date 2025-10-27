@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# PyTorch Models
+*.pt
+*.pth
+*.onnx
+*.engine
+yolov8*.pt
+!yolov8l.pt  # Keep reference to main model
+
+# Dataset directories
+coco/
+datasets/
+annotations/
+data/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+# Keep test images for demo
+!zidane.jpg
+!bus.jpg
+!test_image.jpg
+
+# Logs
+logs/
+*.log
+.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Project-specific
+# Internal documentation
+docs/PHASE*.md
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Docker volumes
+.docker/
+
+# Kubernetes secrets
+k8s/*secret*.yaml
+k8s/*-secret.yaml
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Testing
+.pytest_cache/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling
+*.prof
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Project status (internal tracking)
+PROJECT_STATUS.md
+
+# Git setup helper
+git-setup.sh
+

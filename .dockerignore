@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# COCO dataset (large - mount as volume instead)
+coco/
+annotations/
+datasets/
+
+# Test images
+*.jpg
+*.png
+*.jpeg
+!test_image.jpg
+!zidane.jpg
+!bus.jpg
+
+# Documentation
+*.md
+!README.md
+ROADMAP.md
+PHASE1_SUMMARY.md
+
+# Logs
+*.log
+
+# Misc
+.pytest_cache/
+.coverage
+htmlcov/
